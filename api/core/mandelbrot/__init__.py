@@ -1,5 +1,9 @@
 from flask import Blueprint
 
-api = Blueprint('mandelbrot')
+from flask_cors import CORS
 
-import views
+api = Blueprint('mandelbrot', __name__)
+
+CORS(api)
+
+from . import views

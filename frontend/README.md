@@ -1,3 +1,14 @@
+# ReactJS Frontend Setup
+
+## Enable Auto Refresh
+
+Create a .env in the root directory of the frontend for react and add the following line.
+
+```
+WATCHPACK_POLLING=true
+```
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
